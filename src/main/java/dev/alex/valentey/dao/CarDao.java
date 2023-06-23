@@ -5,6 +5,9 @@ import dev.alex.valentey.entity.Passport;
 
 import java.util.List;
 
+/**
+ * This is CarDao interface for working with Car entities.
+ */
 public interface CarDao {
     List<Car> readAllCars();
     Car readCarById(long carId);
