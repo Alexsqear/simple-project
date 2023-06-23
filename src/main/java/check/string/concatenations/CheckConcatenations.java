@@ -10,7 +10,7 @@ public class CheckConcatenations {
         start = System.nanoTime();
         concatenateWithBuilder();
         end = System.nanoTime();
-        System.out.println("concatenateWithBuilder time = " + (end - start));
+        System.out.println("concatenateWithBuilder Time = " + (end - start));
 //
         start = System.nanoTime();
         concatenateWithStringFormatter();
